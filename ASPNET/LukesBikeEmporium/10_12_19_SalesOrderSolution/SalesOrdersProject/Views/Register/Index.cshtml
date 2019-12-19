@@ -1,0 +1,285 @@
+﻿@model SalesOrdersProject.Models.Customer
+
+@{
+    ViewBag.Title = "Register User";
+}
+
+@*@using (Html.BeginForm("Register", "Register"))
+    {
+        @Html.ValidationSummary()
+
+        <h3>Register</h3>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>First Name</label>
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerFirstName, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Last Name</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerLastName, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Address</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerStreetAddress, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>City</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerCity, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>State</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerState, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Postal Code</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerZipCode, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Area Code</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerAreaCode, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Phone Number</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerPhoneNumber, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="registerFormGroup form-group col-xs-4">
+            <label>Email Address (Used as User Name)</label>
+            <br />
+            <div class="registerTextbox">
+                @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
+            @Html.TextBoxFor(x => x.CustomerPassword, new { @class = "form-control" })
+        </div>
+
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Register" />
+        </div>
+
+
+    }*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@using (Html.BeginForm("Register", "Register"))
+    {
+        @Html.ValidationSummary()
+
+        <h3>User Registration</h3>
+        <div id="registerFormGroup">
+            <div class="form-group registerFormSection">
+                <label>First Name:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerFirstName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>Last Name:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerLastName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>Address:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerStreetAddress, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>City:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerCity, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>State:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerState, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>Postal Code:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerZipCode, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection">
+                <label>Email Address:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group registerFormSection" id="passWordBox">
+                <label>Password:</label>
+                <br />
+                <div class="registerTextbox">
+                    @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Register" />
+        </div>
+    }
+*@
+
+
+
+
+
+
+
+
+
+
+
+@using (Html.BeginForm("Register", "Register"))
+{
+    @Html.ValidationSummary()
+
+    <div id="registerPageForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Register</legend>
+
+
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>First Name</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerFirstName, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>Last Name</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerLastName, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>Street Address</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerStreetAddress, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>City</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerCity, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>State</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerState, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>Zip Code</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerZipCode, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>Email</label></span>
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group registerFormSection">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><label>Password</label></span>
+                                    <div class="col-md-8">
+                                        @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+                                <br />
+                                <br />
+
+                                <div class="text-center">
+                                    <input class="btn btn-primary" type="submit" value="Register" />
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

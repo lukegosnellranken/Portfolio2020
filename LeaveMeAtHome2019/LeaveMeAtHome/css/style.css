@@ -1,0 +1,685 @@
+#backgroundPaws{
+	background: #008000;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+  width: 95%;
+  max-width: 64em;
+  margin: 0 auto;
+  padding: 0;
+  border: 0.1875em solid darkgreen;
+  box-shadow: 0 0.625em 1.25em 0.625em;
+	background: url(../images/wallpaperpaws.png);
+	background-repeat: repeat;
+  color: white;
+	z-index:-1;
+}
+
+
+.img1 {
+     background-image: url("../images/LeaveMeAtHome12.png");
+}
+
+.img2 {
+     background-image: url("../images/newcollage2.png");
+}
+
+.img3 {
+     background-image: url("../images/newcollage1NEW.png");
+}
+
+
+.img {
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed !important;*/
+     background-size: cover !important;
+     background-position: center !important;
+}
+
+/*	End   Added 1/14/19 by JPS	*/
+
+#description p{
+	font-family: 'Roboto Slab', serif;
+}
+
+p{
+	z-index:5;
+	position: relative;
+}
+
+#tomParham p{
+	font-family: 'Charmonman', cursive;
+	font-size: 200%;
+}
+
+#dogSilhouette img{
+	position: absolute;
+	top: 62em;
+	z-index:1;
+	width: 25em;
+	margin-left: 30em;
+}
+
+.card-block h4{
+	font-weight: bold;
+	font-family: 'Mali', cursive;
+}
+
+.navbar{
+  background: #229033;
+  border-bottom: 0.1875em solid darkgreen;
+	border-right: 0.1875em solid darkgreen;
+	border-left: 0.1875em solid darkgreen;
+	max-width: 64em;
+	width: 95%;
+	/*height: 13.5%;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar-nav a .active{
+	color: gold;
+}
+
+.navbar-nav{
+  width:85%;
+  margin-left: 2em;
+}
+
+.nav-item {
+  width: 20%;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.jumbotron{
+  background-color: #008000;
+  margin-bottom: 0;
+}
+
+.carousel-inner {
+	margin-top: 100px;
+}
+
+#tomandlilly img{
+	width: 38em;
+	height: 30em;
+	margin-left: 20%;
+}
+
+.card{
+	background-color: #FCB514;
+}
+
+.card-text{
+	height: 16em;
+}
+
+#backupSitters{
+	font-size: 130%;
+	font-weight: bold;
+	font-family: 'Mali', cursive;
+}
+
+.row{
+
+}
+
+#testimonial h2{
+	padding-left: 26%;
+	margin-right: auto;
+	text-align: center;
+}
+
+hr{
+	width: 100%;
+}
+
+#testimonialtext{
+	margin-left: 30em;
+	width: 20em;
+}
+
+#testimonialimage1 img{
+	margin-left: 2em;
+	width: 25em;
+	height: 35em;
+}
+
+
+
+#video{
+	float: left;
+	margin-left: 5em;
+	padding-left: 5%;
+}
+
+#video iframe{
+	border-style: solid;
+	border-width: 5px;
+	width: 100%;
+	height: 35em;
+}
+
+#footer{
+  text-align: center;
+}
+ .blockquote-footer{
+   color: gold;
+ }
+
+#icons{
+  font-size: 150%;
+  float: right;
+  margin-top: .5em;
+}
+
+#contactForm{
+  text-align: center;
+  margin: 0 auto;
+  width: 50%
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.success {
+	color: #ff9966;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn{
+	float: right;
+}
+
+footer p i{
+	text-align: center;
+}
+/*
+@media (orientation: portrait) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (orientation: landscape) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:96vh;
+    }
+}
+*/
+@media only screen and (max-width: 990px) {
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	.nav-item{
+		margin-left: 45%;
+		font-size: 170%;
+	}
+
+	#testimonialimage1{
+		padding-top: 40em;
+		padding-left: 20%;
+	}
+
+	#video{
+	padding-left: 20%;
+	}
+
+  p{
+    font-size: 100%;
+  }
+
+	#dogSilhouette img{
+		display: none;
+	}
+
+	#tomandlilly img{
+		margin-left: 17%;
+		width: 35em;
+		height: 28em;
+	}
+
+  .card-img-top{
+    height: 15em;
+  }
+  .card{
+    height: 32em;
+  }
+  .card-text{
+    font-size: 70%;
+		font-weight: bold;
+  }
+  .card-title{
+    font-size: 90%;
+  }
+	#backupSitters{
+		font-size: 90%;
+	}
+
+	#video{
+		margin-left: 4em;
+	}
+
+	#testimonialtext{
+		margin-left: 28em;
+		width: 18em;
+		font-size: 95%;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#tomandlilly img{
+		margin-left: 12%;
+		width: 35em;
+		height: 28em;
+	}
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+
+	/*body{
+		width: 100%;
+		background-color: red;
+	}*/
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#testimonialimage1{
+		padding-top: 40em;
+		padding-left: 17%;
+	}
+
+	.navbar{
+		width: 100%;
+	}
+
+	#description h2{
+		font-size: 300%;
+	}
+
+	#tomandlilly img{
+		margin-left: 15%;
+		width: 30em;
+		height: 22em;
+	}
+
+	.card-title{
+		font-size: 200%;
+	}
+
+	#backupSitters{
+		font-size: 200%;
+	}
+
+	.card-text{
+		padding-bottom: 2em;
+		font-size: 97%;
+	}
+
+	.col-md-3{
+		margin-bottom: 3em;
+	}
+
+  .card-img-top{
+		margin-top: 2em;
+		margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+		height: 17em;
+		border-style: solid;
+		border-width: 5px;
+		border-color: white;
+  }
+
+  .card{
+    width: 80%;
+		height: 35em;
+		margin-left: 10%;
+		border-style: solid;
+		border-width: 5px;
+  }
+
+	.display-5{
+		text-align: center;
+	}
+
+	#testimonialtext{
+		position: relative;
+		padding-top: 35em;
+		margin-left: 12em;
+	}
+
+	#video {
+		float: center;
+		margin-left: 7%;
+	}
+
+	#video iframe{
+		float: center;
+		max-width: 200%;
+	}
+
+	#footer{
+		font-size: 80%;
+	}
+
+	#backupSitters{
+		font-size: 120%;
+	}
+
+}
+
+@media only screen and (max-width: 734px) {
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#tomandlilly img{
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	.nav-item{
+		margin-left: 42%;
+		font-size: 150%;
+	}
+
+
+	#video {
+		float: center;
+		margin-left: 25%;
+	}
+
+	#testimonialimage1{
+		display: none;
+	}
+
+	#video{
+	padding-left: 0%;
+	}
+
+	#backupSitters{
+		font-size: 120%;
+	}
+
+	#contactForm{
+		margin-top: 35em;
+	}
+
+}
+
+@media only screen and (max-width: 610px) {
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#video {
+		float: center;
+		margin-left: 20%;
+	}
+	#tomandlilly img{
+		margin-left: 12%;
+		width: 25em;
+		height: 18em;
+	}
+
+	#backupSitters{
+		font-size: 120%;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	#video {
+		float: center;
+		margin-left: 16%;
+	}
+
+	#testimonialtext{
+		margin-left: 6em;
+	}
+
+	#tomandlilly img{
+		margin-left: 15%;
+		width: 20em;
+		height: 15em;
+	}
+
+	#backupSitters{
+		font-size: 120%;
+	}
+
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+
+	/*body{
+		width: 100%;
+		background-color: blue;
+	}*/
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	.nav-item{
+		margin-left: 35%;
+		font-size: 100%;
+	}
+
+	#description h2{
+		font-size: 200%;
+	}
+
+	.card{
+		margin-left: 10%;
+  }
+
+	.card-title{
+		font-size: 120%;
+	}
+
+	#backupSitters{
+		font-size: 120%;
+	}
+
+	h4 .card-title{
+		font-size: 10%;
+	}
+
+	.card-text{
+		font-size: 87%;
+	}
+
+	.card-img-top{
+		height: 35%;
+		width: 55%;
+  }
+
+	.display-5{
+		text-align: center;
+	}
+
+	#testimonialtext{
+		position: relative;
+		padding-top: 35em;
+		margin-left: 7em;
+		width: 50%;
+	}
+
+	#video{
+		margin-left: 12%;
+		float: center;
+	}
+
+	.blockquote{
+		font-size: 95%;
+	}
+
+	#footer{
+		font-size: 55%;
+	}
+
+	.btn{
+		float: left;
+	}
+
+	#questions{
+		width: 95%;
+	}
+
+	#tomandlilly img{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	/*body{
+		width: 100%;
+		background-color: blue;
+	}*/
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#video {
+		float: center;
+		margin-left: 5%;
+		max-width: 150%;
+	}
+	#video iframe{
+		float: center;
+		max-width: 150%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	/*body{
+		width: 100%;
+		background-color: blue;
+	}*/
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	.nav-item{
+		margin-left: 20%;
+		font-size: 90%;
+	}
+
+	#contactForm{
+		margin-right: 30%;
+	}
+
+	#video {
+		float: center;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#contactForm{
+		margin-right: 37%;
+	}
+	#contactForm .display-5{
+		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 275px) {
+
+	body{
+		width: 97.5%;
+	}
+
+	.navbar{
+		width: 97.5%;
+	}
+
+	#contactForm{
+		margin-right: 40%;
+	}
+}
