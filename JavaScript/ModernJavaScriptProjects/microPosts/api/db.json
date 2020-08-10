@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Babel",
+      "body": "This project is using Babel!",
+      "id": 1
+    },
+    {
+      "title": "Webpack",
+      "body": "This project is using webpack!",
+      "id": 2
+    }
+  ]
+}
